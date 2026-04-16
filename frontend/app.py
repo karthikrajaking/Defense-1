@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model, le = pickle.load(open("models/model.pkl", "rb"))
+model, le = pickle.load(open("../models/model.pkl", "rb"))
 
 st.title("SentinelAI - Defence Decision System")
 
